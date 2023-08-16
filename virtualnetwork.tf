@@ -1,3 +1,4 @@
+# Virtual Network
 resource "azurerm_virtual_network" "vnet-mighty" {
   name                = "vnet-${terraform.workspace}-mighty" #var.virtual_network_name
   location            = azurerm_resource_group.rg-mighty.location  

@@ -1,3 +1,4 @@
+# local variables
 locals {
     location="East US"
     
